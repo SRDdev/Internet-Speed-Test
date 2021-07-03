@@ -1,2 +1,3 @@
 # Internet-Speed-Test
-Check your internet speed (python)
+Check your internet speed !
+Madee using Python.
