@@ -1,8 +1,7 @@
-!pip install speedtest-cli
 import speedtest
-test=speedtest.Speedtest()
-Download= test.download()
-Upload = test.upload()
-print(f"Download speed is : {Download}")
-print(f"Upload speed is : {Upload}")
-print("speed in kb/s")
+
+test = speedtest.Speedtest()
+download = test.download()
+upload = test.upload()
+
+print("Download speed is : {}\nUpload speed is : {}\nSpeed in KB/s".format(download,upload))
